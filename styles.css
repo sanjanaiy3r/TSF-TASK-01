@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff; /* White background */
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000; /* Black font color */
+}
+
+.navbar-nav li a {
+    padding: 5px 9px;
+    color: #000000; /* Black font color */
+    margin-right: 10px;
+    transition: 0.5s ease;
+}   
+.navbar-nav .active a {
+    color: #ffffff; /* White font color */
+    background-color: #003366; /* Navy blue background */
+}
+.navbar-nav li a:hover {
+    color: #ffffff; /* White font color */
+    background-color: #003366; /* Navy blue background */
+}
+.navbar-brand {
+    color: #000000; /* Black font color */
+}
+.navbar-brand:hover {
+    color: #000000; /* Black font color */
+    text-decoration: none;
+}
+.jumbotron {
+    background: #003366; /* Navy blue background */
+    color: #ffffff; /* White text color */
+    height: 50%;
+    text-align: center;
+}
+h1 {
+    font-size: 500%;
+    margin-top: 15%;
+}
+p {
+    font-size: 300%;
+}
+.button {
+    border: 1px solid #003366; /* Navy blue border */
+    color: #003366; /* Navy blue text color */
+    margin-right: 2%;
+    padding: 10px 30px;
+    transition: 0.4s ease;
+}
+.button:hover {
+    color: #ffffff; /* White text color */
+    background-color: #003366; /* Navy blue background */
+    text-decoration: none;
+}
+
+/* Commented out image-related code */
+/* .background-image {
+    background-image: url('path-to-image');
+} */
